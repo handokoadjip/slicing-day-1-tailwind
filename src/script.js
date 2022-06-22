@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
     nav = document.querySelector("#nav");
 
   function mobileViewUpdate() {
-    const viewportWidth = document.querySelector(window).width();
-    if (viewportWidth < 600) {
-      nav.classList.toggle("mobile");
-    }
+    const viewportWidth = window.screen.width;
+    viewportWidth <= 768
+      ? nav.classList.add("mobile")
+      : nav.classList.remove("mobile");
   }
 
   button.addEventListener("click", () => {
@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
     nav.classList.toggle("mix-blend-difference");
   });
 
-  document.querySelector(window).addEventListener("load", mobileViewUpdate);
-  document.querySelector(window).addEventListener("resize", mobileViewUpdate);
+  window.addEventListener("load", mobileViewUpdate);
+  window.addEventListener("resize", mobileViewUpdate);
 
   mobileViewUpdate();
 });

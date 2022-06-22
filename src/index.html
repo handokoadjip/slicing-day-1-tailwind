@@ -57,76 +57,80 @@
       <!--------------------------------------------- 
         Navbar
       ---------------------------------------------->
-      <nav
-        class="container fixed top-0 z-50 mx-auto flex items-center justify-between p-8 font-montserrat mix-blend-difference lg:px-[4.5rem]"
-        id="nav"
-      >
-        <a class="text-xl font-semibold" href="#"
-          >harman<span class="font-light text-[rgba(255,255,255,.45)]">/</span
-          >kardon'</a
+      <nav class="fixed top-0 z-50 w-screen mix-blend-difference" id="nav">
+        <div
+          class="container mx-auto flex items-center justify-between p-8 font-montserrat lg:px-[4.5rem]"
         >
-        <div>
-          <button
-            class="relative z-50 flex items-center lg:hidden"
-            id="toggle-menu-button"
+          <a class="text-xl font-semibold" href="#"
+            >harman<span class="font-light text-[rgba(255,255,255,.45)]">/</span
+            >kardon'</a
           >
-            <span class="sr-only">Toggle Menu</span>
-            <div class="flex h-5 flex-col items-end justify-between" id="open">
-              <span class="block h-0.5 w-7 rounded-full bg-gray-300"></span>
-              <span class="block h-0.5 w-7 rounded-full bg-gray-300"></span>
-              <span class="block h-0.5 w-7 rounded-full bg-gray-300"></span>
-            </div>
-            <div
-              class="flex hidden h-7 flex-col items-end justify-between"
-              id="close"
+          <div>
+            <button
+              class="relative z-50 flex items-center lg:hidden"
+              id="toggle-menu-button"
             >
-              <span
-                class="block h-0.5 w-8 origin-left translate-y-0.5 rotate-45 transform rounded-full bg-gray-300"
-              ></span>
-              <span
-                class="block h-0.5 w-8 origin-left -translate-y-0.5 -rotate-45 transform rounded-full bg-gray-300"
-              ></span>
+              <span class="sr-only">Toggle Menu</span>
+              <div
+                class="flex h-5 flex-col items-end justify-between"
+                id="open"
+              >
+                <span class="block h-0.5 w-7 rounded-full bg-gray-300"></span>
+                <span class="block h-0.5 w-7 rounded-full bg-gray-300"></span>
+                <span class="block h-0.5 w-7 rounded-full bg-gray-300"></span>
+              </div>
+              <div
+                class="flex hidden h-7 flex-col items-end justify-between"
+                id="close"
+              >
+                <span
+                  class="block h-0.5 w-8 origin-left translate-y-0.5 rotate-45 transform rounded-full bg-gray-300"
+                ></span>
+                <span
+                  class="block h-0.5 w-8 origin-left -translate-y-0.5 -rotate-45 transform rounded-full bg-gray-300"
+                ></span>
+              </div>
+            </button>
+            <div
+              class="fixed top-0 left-0 z-40 flex hidden h-screen w-screen flex-col items-center justify-center bg-zinc-800 text-right text-3xl lg:relative lg:block lg:h-auto lg:w-auto lg:bg-transparent lg:text-left lg:text-lg"
+              id="toggle-menu"
+            >
+              <ul class="flex flex-col gap-y-7 md:flex-row md:gap-2">
+                <li>
+                  <a
+                    href="#"
+                    class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
+                    >products</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
+                    >about</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
+                    >blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
+                    >contact</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="px-7 text-xl font-semibold uppercase"
+                    ><i class="fas fa-search"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
-          </button>
-          <div
-            class="fixed top-0 left-0 z-40 flex hidden h-screen w-screen flex-col items-center justify-center bg-zinc-800 text-right text-3xl lg:relative lg:block lg:h-auto lg:w-auto lg:bg-transparent lg:text-left lg:text-lg"
-            id="toggle-menu"
-          >
-            <ul class="flex flex-col gap-y-7 md:flex-row md:gap-2">
-              <li>
-                <a
-                  href="#"
-                  class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
-                  >products</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
-                  >about</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
-                  >blog</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="px-7 text-xs font-semibold uppercase text-[rgba(255,255,255,.45)]"
-                  >contact</a
-                >
-              </li>
-              <li>
-                <a href="#" class="px-7 text-xl font-semibold uppercase"
-                  ><i class="fas fa-search"></i
-                ></a>
-              </li>
-            </ul>
           </div>
         </div>
       </nav>
