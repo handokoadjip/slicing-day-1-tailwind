@@ -7,7 +7,7 @@
 
 Day 1, I will show you the slicing results of the beautiful designs made by https://pin.it/7hAltlS.
 
-This project made using [Bootstrap 5.\*](https://getbootstrap.com/docs/5.1/getting-started/introduction/) framework.
+This project made using [Tailwindcss v3.1.3](https://tailwindcss.com/docs/installation) framework.
 
 For those who want to contribute, just fork or download as usual!
 
