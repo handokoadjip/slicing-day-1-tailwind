@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function mobileViewUpdate() {
     const viewportWidth = document.querySelector(window).width();
     if (viewportWidth < 600) {
-      document.querySelector(".navbar.fixed-top").classList.toggle("mobile");
+      nav.classList.toggle("mobile");
     }
   }
 
