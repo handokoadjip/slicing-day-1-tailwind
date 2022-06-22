@@ -21,4 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.querySelector(window).addEventListener("load", mobileViewUpdate);
   document.querySelector(window).addEventListener("resize", mobileViewUpdate);
+
+  mobileViewUpdate();
 });
