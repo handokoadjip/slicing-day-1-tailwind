@@ -28,8 +28,6 @@ _For more examples and usage, please contact [Handoko Adji Pangestu](https://www
 
 ## Development setup
 
-## Development setup
-
 Switch to the repo folder
 
     cd slicing-day-1-tailwind
